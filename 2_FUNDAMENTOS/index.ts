@@ -15,3 +15,33 @@ console.log(typeof y)
 console.log(y)
 
 console.log(y.toPrecision(3))
+
+// 2 - String
+const firstname: string = "matheus"
+console.log(firstname.toUpperCase())
+
+let fullname: string
+
+const lastname: string = "silva"
+
+fullname = firstname +""+lastname
+
+console.log(fullname)
+console.log(typeof fullname)
+
+//3- boolean
+
+let a:boolean = false
+ 
+console.log(a)
+console.log(typeof a)
+
+a = true
+console.log(a)
+
+// inference e anotation
+const aan:string = "teste"
+
+let inf = "teste"
+console.log("testando")
+ 
